@@ -9,8 +9,8 @@ using namespace std;
 
 
 
-
-void shortestway(vector <int> way, int n2,list <list <array<int,2>>> nodos,vector < vector<int> > &ways)
+//----------------------------------------------------------------------------------------------------------------
+void shortestway(vector <int> way, int n2,list <list <array<int,2>>> &nodos,vector < vector<int> > &ways)
 {
      if (isin(way,n2))
      {

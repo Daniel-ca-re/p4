@@ -59,8 +59,6 @@ void red::newconection(int n1, int n2, int price)
             (*i).push_back(arr);
 
 
-
-
             i=nodos.begin();
             advance(i,n1);
             arr={n2,price};
